@@ -22,4 +22,6 @@ public class SmsCouponParam extends SmsCoupon {
     @Setter
     @ApiModelProperty("优惠券绑定的商品分类")
     private List<SmsCouponProductCategoryRelation> productCategoryRelationList;
+
+
 }
